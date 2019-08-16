@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 @Configuration
-@ComponentScan(basePackages = { "com.example.mvc" })
+@ComponentScan(basePackages = { "com.example" })
 @EnableAutoConfiguration
 public class SpringBootWebMvcApplication {
 
