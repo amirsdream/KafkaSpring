@@ -8,8 +8,6 @@ import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 @Configuration
-@ComponentScan(basePackages = { "com.example" })
-@EnableAutoConfiguration
 public class SpringBootWebMvcApplication {
 
 	public static void main(String[] args) {
