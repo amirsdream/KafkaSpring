@@ -2,7 +2,7 @@ name : Testpipeline
 on : [push]
 
 
-job: 
+jobs: 
   testall: 
     runs-on: self-hosted
     steps:
