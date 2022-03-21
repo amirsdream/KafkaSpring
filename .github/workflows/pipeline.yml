@@ -6,7 +6,7 @@ jobs:
   testall: 
     runs-on: self-hosted
     steps:
-      - uses: actions/checkeout@v1
-        run: |
-             mvn package 
+    - uses: actions/checkout@v1
+    - run: |
+           mvn package 
              
