@@ -1,0 +1,12 @@
+name : Testpipeline
+on : [push]
+
+
+job: 
+  testall: 
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkeout@v1
+        run: |
+             mvn package 
+             
